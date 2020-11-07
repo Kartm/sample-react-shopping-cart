@@ -1,3 +1,10 @@
+## Running the project
+
+1. `npm install` in the root directory
+2. `npm start`
+
+## Task description
+
 Zadanie polega na stworzeniu prostego widoku produktów oraz koszyka na jednej stronie. Całość składa się z dwóch części:
 a) Grid z produktami.
 b) Koszyk zakupowy.
