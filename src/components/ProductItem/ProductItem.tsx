@@ -13,7 +13,7 @@ export function ProductItem({ item, onAdd }: ProductItemProps) {
       <img src={item.cover} />
       <div className="description">
         <p>{item.title}</p>
-        {item.availability && <p>{`${item.price} ${item.currency}`}</p>}
+        {item.availability && <p>{`${item.price.toFixed(2)} ${item.currency}`}</p>}
         {item.availability && (
           <button className="add" onClick={() => onAdd()}>
             {"Add to cart"}

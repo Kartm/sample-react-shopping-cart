@@ -10,7 +10,7 @@ type CartItemProps = {
 
 export function CartItem({ item, onRemove }: CartItemProps) {
   const itemTotalPrice = round(item.amount * item.price, 2);
-  const itemDescription = `${item.title}, ${item.amount} pcs., ${item.price} ${item.currency}, ${itemTotalPrice} ${item.currency}`;
+  const itemDescription = `${item.title}, ${item.amount} pcs., ${item.price.toFixed(2)} ${item.currency}, ${itemTotalPrice.toFixed(2)} ${item.currency}`;
 
   return (
     <div className="cart-item">
