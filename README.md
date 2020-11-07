@@ -1,3 +1,5 @@
+<img src="./final.jpg">
+
 ## Running the project
 
 1. `npm install` in the root directory
@@ -40,4 +42,3 @@ Wskazówki:
 
 <img src="./empty-cart.jpg">
 <img src="./grid-cart.jpg">
-<img src="./final.jpg">
