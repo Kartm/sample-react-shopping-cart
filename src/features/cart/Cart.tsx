@@ -20,7 +20,12 @@ export function Cart() {
       {items.length > 0 ? (
         <>
           <div className="container">
-            {items.map((item) => <CartItem item={item} onRemove={() => dispatch(removeCartItem(item.id))} />)}
+            {items.map((item) => (
+              <CartItem
+                item={item}
+                onRemove={() => dispatch(removeCartItem(item.id))}
+              />
+            ))}
           </div>
           <div className="total">
             <h3>{`Total ${totalPrice} PLN`}</h3>

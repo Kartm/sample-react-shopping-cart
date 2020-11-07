@@ -13,7 +13,12 @@ export function Products() {
     <div className="products">
       <h1 className="header">Products</h1>
       <div className="container">
-        {products.map((item) => <ProductItem item={item} onAdd={() => dispatch(addCartItem(item.id))}/>)}
+        {products.map((item) => (
+          <ProductItem
+            item={item}
+            onAdd={() => dispatch(addCartItem(item.id))}
+          />
+        ))}
       </div>
     </div>
   );
