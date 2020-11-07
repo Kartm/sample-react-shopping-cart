@@ -22,7 +22,7 @@
   position: relative;
   border: 1px solid black;
   box-sizing: border-box;
-  min-height: 264px;
+  min-height: 352px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -35,6 +35,9 @@
   flex-direction: column;
   align-items: center;
   padding: 10px;
+  text-align: center;
+  background-color: rgba(29, 29, 29, 0.589);
+  color: whitesmoke;
 }
 
 .item p {
@@ -49,3 +52,6 @@
   height: 100%;
 }
 
+.addButton {
+  cursor: pointer;
+}
