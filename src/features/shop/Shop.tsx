@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
-import { Cart } from '../cart/Cart';
-import { Products } from '../products/Products';
-import styles from './Shop.module.css';
+import React from "react";
+import { Cart } from "../cart/Cart";
+import { Products } from "../products/Products";
+import "./Shop.scss";
 
 export function Shop() {
-
   return (
-    <div className={styles.container}>
+    <div className="shop">
       <Products />
-        <Cart />
-      </div>
+      <Cart />
+    </div>
   );
 }
