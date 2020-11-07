@@ -1,10 +1,3 @@
-Mock-up:
-<img src="./empty-cart.jpg">
-<img src="./grid-cart.jpg">
-
-Final result:
-<img src="./final.jpg">
-
 Zadanie polega na stworzeniu prostego widoku produktów oraz koszyka na jednej stronie. Całość składa się z dwóch części:
 a) Grid z produktami.
 b) Koszyk zakupowy.
@@ -38,3 +31,6 @@ Wskazówki:
 - Zadanie to ma na celu zweryfikować Twoje podejście do niektórych problemów, ciekawe rozwiązania, a niekoniecznie przedstawienie "gotowego produktu". Jeśli więc jakiś fragment zajmuje Ci za dużo czasu - pomiń go i przejdź dalej. Chcielibyśmy bowiem, aby zadanie nie zajęło Ci więcej niż 4 godziny.
 - Korzystaj z dobrych praktyk. Pamiętaj o rozszerzalności, komponentyzacji. Mimo, że projekt nie musi być idealny, to jednak potraktuj go tak, jakby miał być użyty i rozwijany w dużym projekcie
 
+<img src="./empty-cart.jpg">
+<img src="./grid-cart.jpg">
+<img src="./final.jpg">
